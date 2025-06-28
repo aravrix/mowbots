@@ -338,3 +338,27 @@ footer .links a:hover {
   font-size: 0.9rem;
   box-shadow: 0 0 10px rgba(255, 105, 180, 0.1);
 }
+.btn.invite-mowman {
+  display: inline-block;
+  padding: 12px 28px;
+  margin-top: 30px;
+  background: #0a0a0a;
+  border: 2px solid #ff003c;
+  color: #ff003c;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(255, 0, 60, 0.3);
+  text-decoration: none;
+}
+
+.btn.invite-mowman:hover {
+  background: #930022;
+  color: #0a0a0a;
+  box-shadow: 0 0 25px rgba(199, 63, 95, 0.6), 0 0 40px rgba(255, 0, 60, 0.3) inset;
+  transform: scale(1.05);
+  cursor: pointer;
+}
